@@ -27,20 +27,40 @@ The next flip-flop need only “recognize” that the first flip-flop’s Q outp
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
 **Procedure**
-
-/* write all the steps invloved */
+1.Type the Verilog program in Quartus Prime to implement the 4-bit Serial-In Serial
+Out (SISO) Shift Register.
+2.Compile and run the program to ensure the design is error-free.
+3.Generate the RTL schematic to visualize the cascading D flip-flop connections and
+save it for documentation.
+4.Create nodes for the serial input (SI), clock (CLK), and serial output (SO) to observe the
+shifting process during simulation.
+5.Simulate the design for different input serial data patterns and observe the timing
+diagrams.
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by: Sanjit A RegisterNumber: 24005054
+
+![Screenshot 2024-12-04 192540](https://github.com/user-attachments/assets/cad71371-c570-4048-ad4d-ca7736d73b67)
+
 */
 
 **RTL LOGIC UP COUNTER**
+![Screenshot 2024-12-04 192608](https://github.com/user-attachments/assets/e01668cc-6e0a-419e-a540-3bc71fac3177)
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![Screenshot 2024-12-04 192521](https://github.com/user-attachments/assets/0869250c-892f-41f6-aa67-94dd40f68013)
+
 
 **TRUTH TABLE**
+![image](https://github.com/user-attachments/assets/b7b94e32-5324-4458-8f1e-4f4c7f1cc122)
+
+
 
 **RESULTS**
+
+ Thus, the 4-bit Ripple Counter was successfully implemented, and its functionality was
+ validated using the truth table.
